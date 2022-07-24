@@ -23,15 +23,15 @@ O recurso do Git que realmente o diferencia de quase todos os outros SCM é seu 
 
 Passo 1 - Com o Docker e o Git devidamente instalados, faça o download do arquivo [api.bundle](https://github.com/FBarros98/API/blob/master/api.bundle) presente neste repositório e salve em um diretório a sua escolha.
 
-Passo 2 - Abra o terminal do Git Bash, navegue até o diretório no qual se encontra o arquivo [api.bundle](https://github.com/FBarros98/API/blob/master/api.bundle) e execute o seguinte comando: 
+Passo 2 - Abra o terminal do Git Bash, navegue até o diretório no qual se encontra o arquivo [api_pagarme.bundle](https://github.com/FBarros98/API/blob/master/api_pagarme.bundle) e execute o seguinte comando: 
 
-    git clone api.bundle
+    git clone api_pagarme.bundle
 
 Nesse diretório será criada uma pasta que contém todo o conteúdo desse repositório. 
 
 # Acessando API
 
-A pasta criada pelo arquivo [api.bundle](https://github.com/FBarros98/API/blob/master/api.bundle) deve conter os seguintes arquivos:
+A pasta criada pelo arquivo [api_pagarme.bundle](https://github.com/FBarros98/API/blob/master/api_pagarme.bundle) deve conter os seguintes arquivos:
 
 - app.py
 - docker-compose.yml
@@ -42,7 +42,7 @@ A pasta criada pelo arquivo [api.bundle](https://github.com/FBarros98/API/blob/m
 
 Para acessar a API devemos seguir o seguinte fluxo: 
 
-Passo 1 - Abra o Windows Powershell e navegue até o diretório "api" criado pelo arquivo [api.bundle](https://github.com/FBarros98/API/blob/master/api.bundle). 
+Passo 1 - Abra o Windows Powershell e navegue até o diretório "api" criado pelo arquivo [api_pagarme.bundle](https://github.com/FBarros98/API/blob/master/api_pagarme.bundle). 
 
 Passo 2 - Execute o comando abaixo no terminal do Powershell:
 
