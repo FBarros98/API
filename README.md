@@ -52,7 +52,15 @@ Esse comando irá criar um container em seu docker com todos os requisitos neces
 
 Passo 3 - Abra um navegador web de sua escolha e acesse a página : [localhost:8000](http://localhost:8000/).
 
+# Confiabilidade
 
+A observabilidade fornece insights sobre o comportamento dos aplicativos executados em seus ambientes. Ela deve ser vista como um atributo de qualquer sistema que você constrói e deseja monitorar. Ser capaz de detectar e corrigir eventos de causa raiz rapidamente é algo indispensável para a infraestrutura de um sistema.
+
+Para monitorar a API Pagar.me podemos utilizar uma ferramenta da empresa Elastic, chamada Elastic Observability. O Observability possui um recurso chamado Heartbeat Synthetics, que nos permite simular as interações de um usuário em nossas aplicações. Desta forma, será possível monitorar o status code da API e as informações que são exibidas por ela.
+
+# Como realizar o monitoramento
+
+O Heartbeat Synthetics 
 
 
 
