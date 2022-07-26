@@ -70,7 +70,7 @@ Para realizar o monitoramento da nossa API através do Uptime, é necessário qu
 Esse YAML deve ser colocado no servidor no qual o serviço do Heartbeat Synthetics está sendo executado.
 No nosso caso, a API Pagar.me será monitorada utilizando o arquivo [api_pagarme.yml](https://github.com/FBarros98/API-Pagar.me/blob/86f0ed35a00aaa6262cdaf66c0b7edeb43672a68/api_pagarme.yml).
 
-Dessa forma, será possível visualizar através do portal do Elastic informações como: status code da página; um screenshot da tela para validação visual; validar se todos os steps foram executados com sucesso. 
+Dessa forma, será possível visualizar através do portal do Elastic informações como: status code da página; screenshot da tela para validação visual; validar se todos os steps foram executados com sucesso. 
 
 Além disso, é possível criar um alerta caso seja encontrado algum problema durante o monitoramento da API. Esse alerta pode ser enviado para diversas plataformas, como:
 
