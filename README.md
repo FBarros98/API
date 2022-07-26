@@ -73,8 +73,9 @@ No nosso caso, a API Pagar.me será monitorada utilizando o arquivo [api_pagarme
 Dessa forma, será possível visualizar através do portal do Elastic informações como: status code da página; um screenshot da tela para validação visual; validar se todos os steps foram executados com sucesso. 
 
 Além disso, é possível criar um alerta caso seja encontrado algum problema durante o monitoramento da API. Esse alerta pode ser enviado para diversas plataformas, como:
+
 ![image](https://user-images.githubusercontent.com/83362285/181096618-6d7ea93e-b039-4d68-a27d-9800d15e164a.png)
-. 
+ 
 
 
 
