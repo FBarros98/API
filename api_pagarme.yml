@@ -6,10 +6,10 @@
   source:
     inline:
       script: |-
-        step("Load API", async () => {
+        step("Carregar API", async () => {
           await page.goto('https://localhost:8000');
         });
-        step("Validar carregamento do dados", async () => {
+        step("Validar carregamento dos dados", async () => {
           await page.waitForSelector('.container-top.container-top-image'); 
           await page.waitForSelector('#Usr');          
           await page.waitForSelector('#Pwd');
