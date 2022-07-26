@@ -1,0 +1,17 @@
+- type: browser
+  id: API Pagar.me
+  name: API Pagar.me
+  schedule: "@every 40s"
+  screenshots: "on"
+  source:
+    inline:
+      script: |-
+        step("Load API", async () => {
+          await page.goto('https://localhost:8000');
+        });
+        step("Validar carregamento do dados", async () => {
+          await page.waitForSelector('.container-top.container-top-image'); 
+          await page.waitForSelector('#Usr');          
+          await page.waitForSelector('#Pwd');
+          await page.waitForSelector('#btnSubmit');
+        });
