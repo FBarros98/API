@@ -48,6 +48,8 @@ Passo 2 - Execute o comando abaixo no terminal do Powershell:
 
     docker-compose up -d
 
+OBS: Antes de executar o comando garanta que o Docker Desktop está com o status 'running'.
+
 Esse comando irá criar um container em seu docker com todos os requisitos necessários para executar a API Pagar.me.
 
 Passo 3 - Abra um navegador web de sua escolha e acesse a página : [localhost:8000](http://localhost:8000/).
