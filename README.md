@@ -57,13 +57,13 @@ Passo 3 - Abra um navegador web de sua escolha e acesse a página : [localhost:8
 A observabilidade fornece insights sobre o comportamento dos aplicativos executados em seus ambientes. Ela deve ser vista como um atributo de qualquer sistema que você constrói e deseja monitorar. Ser capaz de detectar e corrigir eventos de causa raiz rapidamente é algo indispensável para a infraestrutura de um sistema.
 
 Para monitorar a API Pagar.me podemos utilizar uma ferramenta da empresa Elastic, chamada [Elastic Observability](https://www.elastic.co/guide/en/observability/current/observability-introduction.html). O Observability possui um recurso chamado Heartbeat Synthetics, que nos permite simular as interações de um usuário em nossas aplicações. Desta forma, será possível monitorar o status code da API e as informações que são exibidas por ela.
-Todo processo de configuração do servidor para enviar os dados para o Elasticsearch pode ser observado visitando [Send data to Elasticsearch](https://www.elastic.co/guide/en/observability/current/add-observability-data.html)
+Todo processo de configuração do servidor para enviar os dados para o Elasticsearch pode ser observado visitando [Send data to Elasticsearch](https://www.elastic.co/guide/en/observability/current/add-observability-data.html).
 
 # Como realizar o monitoramento
 
 O monitoramento realizado pelo Heartbeat Synthetics é feito através de steps. Cada step irá simular uma determinada interação do usuário. 
 Esses roteiro deve ser criado em um arquivo YAML, na linguagem TypeScript, utilizando a biblioteca [Playwright](https://playwright.dev/docs/intro).
-O processo de criação do YAML pode ser acompanhado seguindo as informações de [Write a synthetic test](https://www.elastic.co/guide/en/observability/current/synthetics-create-test.html)
+O processo de criação do YAML pode ser acompanhado seguindo as informações de [Write a synthetic test](https://www.elastic.co/guide/en/observability/current/synthetics-create-test.html).
 
 Para o monitoramento da nossa API, foi utilizado o arquivo [api_pagarme.yml](https://github.com/FBarros98/API-Pagar.me/blob/86f0ed35a00aaa6262cdaf66c0b7edeb43672a68/api_pagarme.yml).
 
