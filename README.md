@@ -42,7 +42,7 @@ A pasta criada pelo arquivo [api_pagarme.bundle](https://github.com/FBarros98/AP
 
 Para acessar a API devemos seguir o seguinte fluxo: 
 
-Passo 1 - Abra o Windows Powershell e navegue até o diretório "api_pagarme" criado pelo arquivo [api_pagarme.bundle](https://github.com/FBarros98/API/blob/master/api_pagarme.bundle). 
+Passo 1 - Abra o Windows Powershell e navegue até o diretório "api_pagarme" que foi criado. 
 
 Passo 2 - Execute o comando abaixo no terminal do Powershell:
 
