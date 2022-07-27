@@ -39,6 +39,7 @@ A pasta criada pelo arquivo [api_pagarme.bundle](https://github.com/FBarros98/AP
 - requirements.txt
 - README.md
 - .gitignore
+- api_pagarme.yml
 
 Para acessar a API devemos seguir o seguinte fluxo: 
 
