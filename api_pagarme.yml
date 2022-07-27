@@ -10,8 +10,7 @@
           await page.goto('https://localhost:8000');
         });
         step("Validar carregamento dos dados", async () => {
-          await page.waitForSelector('.container-top.container-top-image'); 
-          await page.waitForSelector('#Usr');          
-          await page.waitForSelector('#Pwd');
-          await page.waitForSelector('#btnSubmit');
+          await page.waitForSelector('text = Welcome to the Pagar.me API'); 
+          requisicao = apiRequestContext.get(https://localhost:8000, ['Timestamp']);
+          console.log(requisicao);
         });
