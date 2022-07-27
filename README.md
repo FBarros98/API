@@ -58,7 +58,7 @@ Passo 3 - Abra um navegador web de sua escolha e acesse a página : [localhost:8
 
 A observabilidade fornece insights sobre o comportamento dos aplicativos executados em seus ambientes. Ela deve ser vista como um atributo de qualquer sistema que você constrói e deseja monitorar. Ser capaz de detectar e corrigir eventos de causa raiz rapidamente é algo indispensável para a infraestrutura de um sistema.
 
-Para monitorar a API Pagar.me podemos utilizar um produto da empresa Elastic, chamado [Elastic Observability](https://www.elastic.co/guide/en/observability/current/observability-introduction.html). O Observability possui um recurso chamado Uptime, que nos permite criar processos de monitoramento de diversos tipos, dentre eles temos o monitoramento sintético, que nos permite simular as interações de um usuário em nossas aplicações. 
+Para monitorar a API Pagar.me, podemos utilizar um produto da empresa Elastic, chamado [Elastic Observability](https://www.elastic.co/guide/en/observability/current/observability-introduction.html). O Observability possui um recurso chamado Uptime, que nos permite criar processos de monitoramento de diversos tipos, dentre eles temos o monitoramento sintético, que nos permite simular as interações de um usuário em nossas aplicações. 
 Para executarmos esse monitoramento sintético, será necessário realizar a configuração do serviço [Heartbeat Synthetics](https://www.elastic.co/guide/en/observability/current/uptime-set-up.html#uptime-set-up-choose-heartbeat) em um servidor/container de sua escolha.
 
 # Como realizar o monitoramento
